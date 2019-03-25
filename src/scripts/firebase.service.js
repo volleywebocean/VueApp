@@ -1,6 +1,7 @@
 import firebase from 'firebase'
 export default {
     init() {
+
         var config = {
             apiKey: "AIzaSyDOIGiCYJwwUCpie8Lhu9CipzB1_0fidss",
             authDomain: "vueapp-caab7.firebaseapp.com",
@@ -10,5 +11,6 @@ export default {
             messagingSenderId: "467067472217"
           };
           firebase.initializeApp(config);
+          
     }
 }
